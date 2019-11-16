@@ -1,0 +1,39 @@
+#Sako Haji
+#CS 455 A
+#11/14/2019
+#Midterm take-home exam
+
+
+
+#Find Average
+
+def find_avg():
+
+    example = [1,1,2,3,5,8,13,21] #list containing fibonacci numbers
+    step1 = sum(example)
+    step2 = len(example)
+    average = step1 / step2
+    print (average)
+
+find_avg()
+    
+#Reverse list
+
+def reverse_it():
+
+    example = [1,1,2,3,5,8,13,21]
+    new_example = example[::-1]
+    print (new_example)
+
+reverse_it()
+
+
+#Print every 3rd number
+
+def every_3():
+
+    example = [1,1,2,3,5,8,13,21]
+    new_example = example[::3]
+    print (new_example)
+
+every_3()
