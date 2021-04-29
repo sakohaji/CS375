@@ -35,5 +35,5 @@ def every_3():
     example = [1,1,2,3,5,8,13,21]
     new_example = example[::3]
     print (new_example)
-
+ 
 every_3()
